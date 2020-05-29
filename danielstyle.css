@@ -1,0 +1,40 @@
+body {
+  background-color: gray;
+  height: 100%;
+}
+
+@media (min-width: 500px) {
+  .mybanner {
+    width: 70%;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  .spacer {
+    width: 15%;
+    background-color: gray;
+  }
+}
+@media (max-width: 499px) {
+  .mybanner {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  .spacer {
+    width: 0%;
+  }
+}
+
+
+
+.contentcol {
+  background-color: gray;
+  height: 100%;
+  margin-bottom: 15px;
+}
+
+
+
+/*# sourceMappingURL=danielstyle.css.map */
